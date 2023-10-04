@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="logo">Weather Dashboard</h1>
+    <div class="current-info">
+      <div class="date-container">
+
+        <div class="time" id="time">
+
+          12:30 <span id="am-pm">pm</span>
+        </div>
+        <div class="date" id="date">
+          monday , 24 may
+        </div>
+        <div class="plece-container">
+          <div class="time-zone" id="time-zone">City Name</div>
+  
+        </div>
+      </div>
+      <div class="search">
+        <div class="search-icon">
+          <input class="search_input" type="text" placeholder="Enter Name City">
+          <img src="./imgas/search.png" alt="search">
+        </div>
+        <div class="gruop-btn">
+          <button class="search-btn btn">Search</button>
+          <button class="location-btn btn">Location</button>
+        </div>
+      </div>
+
+      
+
+    </div>
+
+
+
+  </div>
+  <div class="future-forecast">
+    <div class="today" id="current-temp">
+      <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather icon" class="w-icon">
+      <div class="outher">
+        <h4 class="day">2023 - 00 - 00</h4>
+        <h5 class="temp">Temp - 00&#176;c</h5>
+        <h5 class="temp">wind - 45.6 M/S</h5>
+        <h5 class="temp">Humidity - 00%</h5>
+      </div>
+    </div>
+    <h2 class="forecast-day">Five Day Forecast</h2>
+    <div class="weather-forecasts" id="weather-forecasts">
+      <div class="weather-forecast-item">
+        <div class="day">2023 - 00 - 00</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+        <div class="temp">Temp - 00&#176;c</div>
+        <div class="temp">wind - 45.6 M/S</div>
+        <div class="temp">Humidity - 00%</div>
+      </div>
+      <div class="weather-forecast-item">
+        <div class="day">2023 - 00 - 00</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+        <div class="temp">Temp - 00&#176;c</div>
+        <div class="temp">wind - 45.6 M/S</div>
+        <div class="temp">Humidity - 00%</div>
+      </div>
+      <div class="weather-forecast-item">
+        <div class="day">2023 - 00 - 00</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+        <div class="temp">Temp - 00&#176;c</div>
+        <div class="temp">wind - 45.6 M/S</div>
+        <div class="temp">Humidity - 00%</div>
+      </div>
+      <div class="weather-forecast-item">
+        <div class="day">2023 - 00 - 00</div>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+        <div class="temp">Temp - 00&#176;c</div>
+        <div class="temp">wind - 45.6 M/S</div>
+        <div class="temp">Humidity - 00%</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
